@@ -508,6 +508,7 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/poll_with_backoff.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__thread/timed_backoff_policy.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__threading_support
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tuple
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_const.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/add_cv.h
@@ -685,6 +686,7 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/locale.h
+ /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/memory
  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/mutex
@@ -846,6 +848,36 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o
  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdint.h
  /Users/violet/Desktop/my_project/opengl/include/GLFW/glfw3.h
  /Users/violet/Desktop/my_project/opengl/include/KHR/khrplatform.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/Compiler/poppack1.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/Compiler/pushpack1.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/Importer.hpp
+ /Users/violet/Desktop/my_project/opengl/include/assimp/MathFunctions.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/aabb.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/anim.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/camera.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/color4.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/color4.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/config.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/defs.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/light.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/material.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/material.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/matrix3x3.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/matrix3x3.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/matrix4x4.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/matrix4x4.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/mesh.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/metadata.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/postprocess.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/quaternion.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/quaternion.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/scene.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/texture.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/types.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/vector2.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/vector2.inl
+ /Users/violet/Desktop/my_project/opengl/include/assimp/vector3.h
+ /Users/violet/Desktop/my_project/opengl/include/assimp/vector3.inl
  /Users/violet/Desktop/my_project/opengl/include/glad/glad.h
  /Users/violet/Desktop/my_project/opengl/include/glm/common.hpp
  /Users/violet/Desktop/my_project/opengl/include/glm/detail/qualifier.hpp
@@ -1095,6 +1127,10 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o
  /Users/violet/Desktop/my_project/opengl/include/glm/vec3.hpp
  /Users/violet/Desktop/my_project/opengl/include/glm/vec4.hpp
  /Users/violet/Desktop/my_project/opengl/include/glm/vector_relational.hpp
+ /Users/violet/Desktop/my_project/opengl/include/learnopengl/camera.h
+ /Users/violet/Desktop/my_project/opengl/include/learnopengl/mesh.h
+ /Users/violet/Desktop/my_project/opengl/include/learnopengl/model.h
+ /Users/violet/Desktop/my_project/opengl/include/learnopengl/shader.h
  /Users/violet/Desktop/my_project/opengl/include/learnopengl/shader_m.h
  /Users/violet/Desktop/my_project/opengl/include/stb_image.h
 

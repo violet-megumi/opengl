@@ -84,19 +84,12 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/malloc/_malloc.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mode_t.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/string.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
-  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
+  /Users/violet/Desktop/my_project/opengl/include/glm/glm.hpp \
+  /Users/violet/Desktop/my_project/opengl/include/glm/detail/_fixes.hpp \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__verbose_abort \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__availability \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/math.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/promote.h \
@@ -104,9 +97,6 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_same.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__utility/declval.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstddef \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__assert \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__verbose_abort \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__availability \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/enable_if.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/is_integral.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/remove_cv.h \
@@ -222,14 +212,18 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__type_traits/type_identity.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstdint \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__undef_macros \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/assert.h \
-  /Users/violet/Desktop/my_project/opengl/include/glm/glm.hpp \
-  /Users/violet/Desktop/my_project/opengl/include/glm/detail/_fixes.hpp \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cmath \
   /Users/violet/Desktop/my_project/opengl/include/glm/detail/setup.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cassert \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/assert.h \
   /Users/violet/Desktop/my_project/opengl/include/glm/detail/../simd/platform.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/climits \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/limits.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/machine/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/syslimits.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cfloat \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/float.h \
   /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/float.h \
@@ -478,6 +472,11 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Users/violet/Desktop/my_project/opengl/include/glm/gtc/../mat4x2.hpp \
   /Users/violet/Desktop/my_project/opengl/include/glm/gtc/../mat4x3.hpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/cstring \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_rsize_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/strings.h \
   /Users/violet/Desktop/my_project/opengl/include/glm/gtc/type_ptr.inl \
   /Users/violet/Desktop/my_project/opengl/include/learnopengl/shader_m.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/string \
@@ -544,6 +543,7 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_mbstate_t.h \
+  /Library/Developer/CommandLineTools/usr/lib/clang/14.0.3/include/stdarg.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/time.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_clock_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_time_t.h \
@@ -1006,4 +1006,40 @@ CMakeFiles/HelloGL.dir/src/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/recursive_directory_iterator.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__filesystem/u8path.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/sstream \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/iostream \
+  /Users/violet/Desktop/my_project/opengl/include/learnopengl/camera.h \
+  /Users/violet/Desktop/my_project/opengl/include/learnopengl/model.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/Importer.hpp \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/types.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/defs.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/config.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/vector2.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/vector3.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/color4.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/matrix3x3.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/matrix4x4.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/quaternion.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/vector2.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/vector3.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/color4.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/matrix3x3.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/matrix4x4.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/MathFunctions.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/quaternion.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/scene.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/texture.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/./Compiler/pushpack1.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/./Compiler/poppack1.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/mesh.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/aabb.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/light.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/camera.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/material.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/material.inl \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/anim.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/metadata.h \
+  /Users/violet/Desktop/my_project/opengl/include/assimp/postprocess.h \
+  /Users/violet/Desktop/my_project/opengl/include/learnopengl/mesh.h \
+  /Users/violet/Desktop/my_project/opengl/include/learnopengl/shader.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/map \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__tree

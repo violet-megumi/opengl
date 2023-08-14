@@ -109,6 +109,7 @@ HelloGL: CMakeFiles/HelloGL.dir/src/glad.c.o
 HelloGL: CMakeFiles/HelloGL.dir/src/main.cpp.o
 HelloGL: CMakeFiles/HelloGL.dir/build.make
 HelloGL: /Users/violet/Desktop/my_project/opengl/lib/libglfw.3.dylib
+HelloGL: /opt/homebrew/lib/libassimp.dylib
 HelloGL: CMakeFiles/HelloGL.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/violet/Desktop/my_project/opengl/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable HelloGL"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/HelloGL.dir/link.txt --verbose=$(VERBOSE)

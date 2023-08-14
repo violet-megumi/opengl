@@ -14,6 +14,9 @@
 # EXTERNAL cache entries
 ########################
 
+//Path to a library.
+ASSIMP_LIBRARY:FILEPATH=/opt/homebrew/lib/libassimp.dylib
+
 //Build the testing tree.
 BUILD_TESTING:BOOL=ON
 
@@ -301,6 +304,9 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Maximum time allowed before CTest will kill the test.
 DART_TESTING_TIMEOUT:STRING=1500
 
+//Path to a program.
+GITCOMMAND:FILEPATH=/usr/bin/git
+
 //Value Computed by CMake
 HelloGL_BINARY_DIR:STATIC=/Users/violet/Desktop/my_project/opengl/build
 
@@ -321,6 +327,9 @@ MEMORYCHECK_SUPPRESSIONS_FILE:FILEPATH=
 
 //Name of the computer/site where compile is being run
 SITE:STRING=MBP-WHM9NTYHWT-2132.local
+
+//The directory containing a CMake configuration file for assimp.
+assimp_DIR:PATH=/opt/homebrew/lib/cmake/assimp-5.2
 
 
 ########################
@@ -514,6 +523,8 @@ CTEST_SUBMIT_RETRY_COUNT-ADVANCED:INTERNAL=1
 CTEST_SUBMIT_RETRY_DELAY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: DART_TESTING_TIMEOUT
 DART_TESTING_TIMEOUT-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: GITCOMMAND
+GITCOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MAKECOMMAND
 MAKECOMMAND-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: MEMORYCHECK_COMMAND
