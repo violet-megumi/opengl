@@ -12,14 +12,18 @@ set(HEADER_DIR ${PROJECT_SOURCE_DIR}/include/)
 set(LIB_DIR ${PROJECT_SOURCE_DIR}/lib/)
 include_directories(${HEADER_DIR} ${LIB_DIR})
 
+
 # 添加目标链接
 set(GLFW_LINK ${LIB_DIR}libglfw.3.dylib)
 link_libraries(${GLFW_LINK})
 
+
 # 执行编译命令
 set(SOURCES ${SRC_DIR}glad.c ${SRC_DIR}main.cpp)
 add_executable(HelloGL ${SOURCES})
-
+# 链接 Assimp 库
+find_library(ASSIMP_LIBRARY assimp)
+target_link_libraries(HelloGL ${ASSIMP_LIBRARY})
 # 链接系统的 OpenGL 框架
 if (APPLE)
     target_link_libraries(HelloGL "-framework OpenGL")
