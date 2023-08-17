@@ -6,7 +6,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
@@ -21,8 +20,8 @@ unsigned int loadTexture(const char *path);
 unsigned int loadCubemap(vector<std::string> faces);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 400;
+const unsigned int SCR_HEIGHT = 300;
 
 // camera
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -78,8 +77,8 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("6.1.cubemaps.vs", "6.1.cubemaps.fs");
-    Shader skyboxShader("6.1.skybox.vs", "6.1.skybox.fs");
+    Shader shader("shader/4.advanced_opengl/6.1.cubemaps_skybox/6.1.cubemaps.vs", "shader/4.advanced_opengl/6.1.cubemaps_skybox/6.1.cubemaps.fs");
+    Shader skyboxShader("shader/4.advanced_opengl/6.1.cubemaps_skybox/6.1.skybox.vs", "shader/4.advanced_opengl/6.1.cubemaps_skybox/6.1.skybox.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -195,16 +194,16 @@ int main()
 
     // load textures
     // -------------
-    unsigned int cubeTexture = loadTexture(FileSystem::getPath("resources/textures/container.jpg").c_str());
+    unsigned int cubeTexture = loadTexture(std::filesystem::u8path("resources/textures/container.jpg").c_str());
 
     vector<std::string> faces
     {
-        FileSystem::getPath("resources/textures/skybox/right.jpg"),
-        FileSystem::getPath("resources/textures/skybox/left.jpg"),
-        FileSystem::getPath("resources/textures/skybox/top.jpg"),
-        FileSystem::getPath("resources/textures/skybox/bottom.jpg"),
-        FileSystem::getPath("resources/textures/skybox/front.jpg"),
-        FileSystem::getPath("resources/textures/skybox/back.jpg")
+        std::filesystem::u8path("resources/textures/skybox/right.jpg"),
+        std::filesystem::u8path("resources/textures/skybox/left.jpg"),
+        std::filesystem::u8path("resources/textures/skybox/top.jpg"),
+        std::filesystem::u8path("resources/textures/skybox/bottom.jpg"),
+        std::filesystem::u8path("resources/textures/skybox/front.jpg"),
+        std::filesystem::u8path("resources/textures/skybox/back.jpg")
     };
     unsigned int cubemapTexture = loadCubemap(faces);
 
@@ -254,7 +253,7 @@ int main()
         glDepthFunc(GL_LEQUAL);  // change depth function so depth test passes when values are equal to depth buffer's content
         skyboxShader.use();
         view = glm::mat4(glm::mat3(camera.GetViewMatrix())); // remove translation from the view matrix
-        skyboxShader.setMat4("view", view);
+                skyboxShader.setMat4("view", view);
         skyboxShader.setMat4("projection", projection);
         // skybox cube
         glBindVertexArray(skyboxVAO);

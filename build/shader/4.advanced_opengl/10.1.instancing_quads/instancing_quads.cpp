@@ -1,7 +1,6 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader.h>
 
 #include <iostream>
@@ -9,8 +8,8 @@
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 400;
+const unsigned int SCR_HEIGHT = 300;
 
 int main()
 {
@@ -50,7 +49,7 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("10.1.instancing.vs", "10.1.instancing.fs");
+    Shader shader("shader/4.advanced_opengl/10.1.instancing_quads/10.1.instancing.vs", "shader/4.advanced_opengl/10.1.instancing_quads/10.1.instancing.fs");
 
     // generate a list of 100 quad locations/translation-vectors
     // ---------------------------------------------------------

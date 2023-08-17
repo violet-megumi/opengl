@@ -1,17 +1,16 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <stb_image.h>
 
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
-#include <learnopengl/shader.h>
+#include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
-
-#include <iostream>
 #include <random>
+#include <iostream>
 
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
@@ -22,8 +21,8 @@ void renderQuad();
 void renderCube();
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 400;
+const unsigned int SCR_HEIGHT = 300;
 
 // camera
 Camera camera(glm::vec3(0.0f, 0.0f, 5.0f));
@@ -84,14 +83,14 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shaderGeometryPass("9.ssao_geometry.vs", "9.ssao_geometry.fs");
-    Shader shaderLightingPass("9.ssao.vs", "9.ssao_lighting.fs");
-    Shader shaderSSAO("9.ssao.vs", "9.ssao.fs");
-    Shader shaderSSAOBlur("9.ssao.vs", "9.ssao_blur.fs");
+    Shader shaderGeometryPass("shader/5.advanced_lighting/9.ssao/9.ssao_geometry.vs", "shader/5.advanced_lighting/9.ssao/9.ssao_geometry.fs");
+    Shader shaderLightingPass("shader/5.advanced_lighting/9.ssao/9.ssao.vs", "shader/5.advanced_lighting/9.ssao/9.ssao_lighting.fs");
+    Shader shaderSSAO("shader/5.advanced_lighting/9.ssao/9.ssao.vs", "shader/5.advanced_lighting/9.ssao/9.ssao.fs");
+    Shader shaderSSAOBlur("shader/5.advanced_lighting/9.ssao/9.ssao.vs", "shader/5.advanced_lighting/9.ssao/9.ssao_blur.fs");
 
     // load models
     // -----------
-    Model backpack(FileSystem::getPath("resources/objects/backpack/backpack.obj"));
+    Model backpack(std::filesystem::u8path("resources/objects/backpack/backpack.obj"));
 
     // configure g-buffer framebuffer
     // ------------------------------

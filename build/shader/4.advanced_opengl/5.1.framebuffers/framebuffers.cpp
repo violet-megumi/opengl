@@ -6,7 +6,6 @@
 #include <glm/gtc/matrix_transform.hpp>
 #include <glm/gtc/type_ptr.hpp>
 
-#include <learnopengl/filesystem.h>
 #include <learnopengl/shader_m.h>
 #include <learnopengl/camera.h>
 #include <learnopengl/model.h>
@@ -20,8 +19,8 @@ void processInput(GLFWwindow *window);
 unsigned int loadTexture(const char *path);
 
 // settings
-const unsigned int SCR_WIDTH = 800;
-const unsigned int SCR_HEIGHT = 600;
+const unsigned int SCR_WIDTH = 400;
+const unsigned int SCR_HEIGHT = 300;
 
 // camera
 Camera camera(glm::vec3(0.0f, 0.0f, 3.0f));
@@ -77,8 +76,8 @@ int main()
 
     // build and compile shaders
     // -------------------------
-    Shader shader("5.1.framebuffers.vs", "5.1.framebuffers.fs");
-    Shader screenShader("5.1.framebuffers_screen.vs", "5.1.framebuffers_screen.fs");
+    Shader shader("shader/4.advanced_opengl/5.1.framebuffers/5.1.framebuffers.vs", "shader/4.advanced_opengl/5.1.framebuffers/5.1.framebuffers.fs");
+    Shader screenShader("shader/4.advanced_opengl/5.1.framebuffers/5.1.framebuffers_screen.vs", "shader/4.advanced_opengl/5.1.framebuffers/5.1.framebuffers_screen.fs");
 
     // set up vertex data (and buffer(s)) and configure vertex attributes
     // ------------------------------------------------------------------
@@ -182,8 +181,8 @@ int main()
 
     // load textures
     // -------------
-    unsigned int cubeTexture = loadTexture(FileSystem::getPath("resources/textures/container.jpg").c_str());
-    unsigned int floorTexture = loadTexture(FileSystem::getPath("resources/textures/metal.png").c_str());
+    unsigned int cubeTexture = loadTexture(std::filesystem::u8path("resources/textures/container.jpg").c_str());
+    unsigned int floorTexture = loadTexture(std::filesystem::u8path("resources/textures/metal.png").c_str());
 
     // shader configuration
     // --------------------
